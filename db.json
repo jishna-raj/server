@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "johndoe",
+      "password": "hashedpassword",
+      "email": "john.doe@example.com",
+      "accounts": [
+        {
+          "accountId": "ACC123",
+          "accountType": "Cash",
+          "balance": 10000
+        },
+        {
+          "accountId": "ACC124",
+          "accountType": "Margin",
+          "balance": 5000
+        }
+      ],
+      "stocks": [
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc.",
+          "currentPrice": 150.25
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla, Inc.",
+          "currentPrice": 680.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc.",
+          "currentPrice": 2700.5
+        }
+      ],
+      "transactions": [
+        {
+          "transactionId": 1,
+          "accountId": "ACC123",
+          "type": "Buy",
+          "symbol": "AAPL",
+          "quantity": 10,
+          "price": 150,
+          "date": "2024-07-31T10:15:00Z"
+        },
+        {
+          "transactionId": 2,
+          "accountId": "ACC124",
+          "type": "Sell",
+          "symbol": "TSLA",
+          "quantity": 5,
+          "price": 680,
+          "date": "2024-07-30T14:30:00Z"
+        }
+      ],
+      "marketData": [
+        {
+          "symbol": "AAPL",
+          "date": "2024-07-31",
+          "open": 149,
+          "high": 151,
+          "low": 148,
+          "close": 150.25,
+          "volume": 50000000
+        },
+        {
+          "symbol": "TSLA",
+          "date": "2024-07-31",
+          "open": 675,
+          "high": 685,
+          "low": 670,
+          "close": 680.3,
+          "volume": 30000000
+        },
+        {
+          "symbol": "GOOGL",
+          "date": "2024-07-31",
+          "open": 2690,
+          "high": 2710,
+          "low": 2680,
+          "close": 2700.5,
+          "volume": 1500000
+        }
+      ]
+    }
+  ]
+}
