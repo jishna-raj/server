@@ -18,7 +18,7 @@ tradingServer.use(middleware)
 tradingServer.use(router)
 
 //6) set up port for the server to run
-PORT = 4000 || process.env.PORT
+PORT = 5000 || process.env.PORT
 
 //7) listen to the request
 tradingServer.listen(PORT, () => {

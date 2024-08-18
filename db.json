@@ -83,6 +83,176 @@
           "volume": 1500000
         }
       ]
+    },
+    {
+      "id": 2
+    },
+    {
+      "username": "rajan",
+      "password": "rajan123",
+      "email": "rajan@gmail.com",
+      "id": 3
+    },
+    {
+      "username": "max",
+      "password": "max123",
+      "email": "max@gmail.com",
+      "id": 4
+    },
+    {
+      "username": "Raj",
+      "password": "raj123",
+      "email": "raj@gmail.com",
+      "id": 5
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Apple Inc.",
+      "symbol": "AAPL"
+    },
+    {
+      "id": 2,
+      "name": "Microsoft Corporation",
+      "symbol": "MSFT"
+    },
+    {
+      "id": 3,
+      "name": "Google ",
+      "symbol": "GOOGL"
+    },
+    {
+      "id": 4,
+      "name": "Amazon.com, Inc.",
+      "symbol": "AMZN"
+    },
+    {
+      "id": 5,
+      "name": "Facebook ",
+      "symbol": "META"
+    },
+    {
+      "id": 6,
+      "name": "JPMorgan Chase & Co.",
+      "symbol": "JPM"
+    },
+    {
+      "id": 7,
+      "name": "Bank of America Corporation",
+      "symbol": "BAC"
+    },
+    {
+      "id": 8,
+      "name": "Wells Fargo & Company",
+      "symbol": "WFC"
+    },
+    {
+      "id": 9,
+      "name": "Goldman Sachs Group, Inc.",
+      "symbol": "GS"
+    },
+    {
+      "id": 10,
+      "name": "Citigroup Inc.",
+      "symbol": "C"
+    },
+    {
+      "id": 11,
+      "name": "The Coca-Cola Company",
+      "symbol": "KO"
+    }
+  ],
+  "stocks": [
+    {
+      "userId": 4,
+      "stocks": [
+        {
+          "buy": "buy",
+          "qty": "6",
+          "price": 1070.04,
+          "date": "2024-08-16",
+          "cname": "Amazon.com, Inc.",
+          "uId": 4,
+          "highValue": "178.3400"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": [],
+      "stocks": [
+        {
+          "userId": [],
+          "stocks": [
+            {
+              "userId": [],
+              "stocks": [
+                {
+                  "userId": [],
+                  "stocks": [
+                    {
+                      "userId": [],
+                      "stocks": [
+                        {
+                          "buy": "buy",
+                          "qty": "6",
+                          "price": 990.36,
+                          "date": "2024-08-16",
+                          "cname": "Google ",
+                          "uId": [],
+                          "highValue": "165.0600"
+                        }
+                      ],
+                      "id": 2
+                    },
+                    {
+                      "buy": "buy",
+                      "qty": "6",
+                      "price": 332.58,
+                      "date": "2024-08-16",
+                      "cname": "Wells Fargo & Company",
+                      "uId": [],
+                      "highValue": "55.4300"
+                    }
+                  ],
+                  "id": 2
+                },
+                {
+                  "buy": "buy",
+                  "qty": "1",
+                  "price": 504.905,
+                  "date": "2024-08-16",
+                  "cname": "Goldman Sachs Group, Inc.",
+                  "uId": [],
+                  "highValue": "504.9050"
+                }
+              ],
+              "id": 2
+            },
+            {
+              "buy": "buy",
+              "qty": "5",
+              "price": 825.3,
+              "date": "2024-08-16",
+              "cname": "Google ",
+              "uId": [],
+              "highValue": "165.0600"
+            }
+          ],
+          "id": 2
+        },
+        {
+          "buy": "buy",
+          "qty": "8",
+          "price": 1712.72,
+          "date": "2024-08-16",
+          "cname": "JPMorgan Chase & Co.",
+          "uId": [],
+          "highValue": "214.0900"
+        }
+      ],
+      "id": 2
     }
   ]
 }
